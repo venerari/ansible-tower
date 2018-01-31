@@ -40,4 +40,4 @@
    
  - name: Execute this now!
    debug:
-     msg: "/tmp/{{ archive_contents.files[0] }}/setup.sh"  
+     msg: "/tmp/{{ archive_contents.files[0] }}setup.sh"  
