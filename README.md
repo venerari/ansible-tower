@@ -38,7 +38,7 @@ $ ssh-keygen<br>
 $ ssh-copy-id localhost<br>
 ***type yes and put the root password***
 
-Clone this repository
+Clone this repository<b>
 $ git clone https://github.com/tso-ansible/ansible-tower.git
 
 $ cd ansible-tower/
