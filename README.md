@@ -4,7 +4,7 @@ Tested on Vmware Workstation v12 or KVM either Centos7 or Redhat7.4 developer ve
 
 ***if this break, let us know***
 
-This will only take about 10-15 min if you are using SSD including vm provisioning.  You may provision your centos7/redhat7 as no-gui server.
+This will only take about 10-15 min if you are using SSD including vm provisioning.  You may provision your centos7/redhat7 as no-gui server and make sure you can access the ip from the host browser whether it's a NAT or BRIDGE network.
 
 Do these after the vm had been provisioned,
 
