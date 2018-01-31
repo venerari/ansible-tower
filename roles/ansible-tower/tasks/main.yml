@@ -24,17 +24,10 @@
    get_url:
     url: http://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
     dest: /tmp
-    
-    
-    
-    
-    
-    
-    
-    
- - name: Extract minishift
+       
+ - name: Extract Ansible-Tower
    unarchive:
-    src: /tmp/minishift-1.12.0-linux-amd64.tgz
+    src: /tmp/ansible-tower-setup-latest.tar.gz
     dest: /tmp
     
  - name: Move minishift to /bin
