@@ -41,4 +41,6 @@
  - name: Execute the script.sh
    shell: /tmp/{{ archive_contents.files[0] }}/setup.sh
     
- 
+ - name: Execute this now!
+   debug:
+     msg: "/tmp/{{ archive_contents.files[0] }}/setup.sh"  
