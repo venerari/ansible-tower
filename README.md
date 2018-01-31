@@ -1,6 +1,6 @@
 # Ansible-Tower v3.2.x Installation
 
-Tested on Vmware Workstation v12 or KVM either Centos7 or Redhat7.4 developer version (you should register your developer version) and either on a VM or physical computer. We run Ansible-Tower with 2 vcpu, 5GB ram and 60GB disk, this is the minimum resources, more is better and faster.
+Tested on Vmware Workstation v12 or KVM either on an OS Centos7 or Redhat7.4 developer version (you should register your developer version) and either on a VM or physical computer. We run Ansible-Tower with 2 vcpu, 5GB ram and 60GB disk, this is the minimum resources, more is better and faster.
 
 ***if this break, let us know***
 
