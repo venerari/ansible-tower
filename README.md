@@ -46,7 +46,7 @@ $ git clone https://github.com/tso-ansible/ansible-tower.git
 
 $ cd ansible-tower/
 
-Run ansible-playbook
+Run ansible-playbook<br>
 $ ansible-playbook -i inventory ansible-tower.yml
 
 # Created by Venerari and Lazaroall
