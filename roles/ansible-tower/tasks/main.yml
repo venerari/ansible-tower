@@ -36,7 +36,7 @@
  - name: Building the inventory
    template:
      src=inventory.j2
-     dest=/tmp/{{ archive_contents.files[0] }}/inventory   
+     dest=/tmp/{{ archive_contents.files[0] }}inventory   
    
  - name: Execute this now!
    debug:
