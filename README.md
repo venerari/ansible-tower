@@ -46,4 +46,9 @@ $ cd ansible-tower/
 Run ansible-playbook<br>
 $ ansible-playbook -i inventory ansible-tower.yml
 
+***And one last step, about 15-20min.  It should give you the script to execute like /tmp/ansible-tower3.2.2/setup.sh , just copy and paste it back to shell,***
+
+***$ /tmp/ansible-tower3.2.2/setup.sh***
+
+
 # Created by Venerari and Lazaroall
