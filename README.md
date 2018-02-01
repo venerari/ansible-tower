@@ -7,7 +7,7 @@ Tested on Vmware Workstation v12 or KVM either on an OS Centos7 or Redhat7.4 dev
 
 This will only take about 10-15 min if you are using SSD including vm provisioning.  You may provision your centos7/redhat7 as no-gui server and make sure you can access the ip from the host browser whether it's a NAT or BRIDGE network.
 
-Do these after the vm had been provisioned and it should be executed to itself, login as root.
+Do these after the vm had been provisioned and it should be executed to itself, login/su/sudo to root.
 
 ```
 curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.sh | /bin/bash
