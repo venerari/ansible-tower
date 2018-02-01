@@ -40,3 +40,7 @@
    
  - name: Save it to variable!
    shell: lastcommand="/tmp/{{ archive_contents.files[0] }}setup.sh"  
+
+ - name: If nothing execute after this!  Copy below on your shell and execute it!
+   debug:
+     msg: "/tmp/{{ archive_contents.files[0] }}setup.sh"  
