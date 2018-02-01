@@ -38,6 +38,5 @@
      src=inventory.j2
      dest=/tmp/{{ archive_contents.files[0] }}inventory   
    
- - name: Execute this now!
-   debug:
-     msg: "/tmp/{{ archive_contents.files[0] }}setup.sh"  
+ - name: Save it to variable!
+   shell: lastcommand="/tmp/{{ archive_contents.files[0] }}setup.sh"  
