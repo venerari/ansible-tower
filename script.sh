@@ -16,11 +16,11 @@ if [ ! -f ~/.ssh/id_rsa ]; then
 	ssh -o StrictHostKeyChecking=no root@localhost "pwd" < /dev/null
 fi
 
-cd /root
+cd /tmp
 
 git clone https://github.com/tso-ansible/ansible-tower.git
 
-cd /root/ansible-tower
+cd /tmp/ansible-tower
 
 ansible-playbook -i inventory ansible-tower.yml
 
