@@ -12,7 +12,6 @@
      - openssl-devel 
      - libffi 
      - libffi-devel 
-     - git
      - python 
      - python-devel
      - wget
