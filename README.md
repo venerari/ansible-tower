@@ -16,6 +16,8 @@ curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.s
 
 # Created by Venerari and Lazaroall
 
-# bug catcher
-# this is working on this repo, http://mirror.centos.org/centos/7.4.1708
-# you should change/test if this will work
+```
+bug catcher
+this is working on this repo, http://mirror.centos.org/centos/7.4.1708
+you should change/test if this will work
+```
