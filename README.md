@@ -2,7 +2,7 @@
 
 Tested on Vmware Workstation v12 or KVM either on an OS Centos7 or Redhat7.4 developer version (you should register your developer version) and either on a VM or physical computer. We run Ansible-Tower with 2 vcpu, 5GB ram and 60GB disk, this is the minimum resources, more is better and faster.
 
-***if this break, let us know***
+***if this break, let us know***<br>
 ***if you have redhat 7.x licensed, better***
 
 This will only take about 10-15 min if you are using SSD including vm provisioning.  You may provision your centos7/redhat7 as no-gui server and make sure you can access the ip from the host browser whether it's a NAT or BRIDGE network.
