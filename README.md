@@ -19,5 +19,5 @@ curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.s
 ```
 bug catcher
 this is working on this repo, http://mirror.centos.org/centos/7.4.1708
-you should change/test if this will work
+you should change/test if this will work on the file centos7-repo
 ```
