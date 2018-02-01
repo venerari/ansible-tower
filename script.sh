@@ -24,4 +24,4 @@ cd /tmp/ansible-tower
 
 ansible-playbook -i inventory ansible-tower.yml
 
-$lastcommand
+/tmp/lastcommand.sh
