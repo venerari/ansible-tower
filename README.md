@@ -43,6 +43,10 @@ $ git clone https://github.com/tso-ansible/ansible-tower.git
 
 $ cd ansible-tower/
 
+
+```
 curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.sh | /bin/bash
+
+```
 
 # Created by Venerari and Lazaroall
