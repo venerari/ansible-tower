@@ -19,7 +19,6 @@ curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.s
 ```
 Bug catcher
 
-This is working on this repo, http://mirror.centos.org/centos/7 or this http://mirror.centos.org/centos/7.4.1708,
-```
+This is working on this repo, http://mirror.centos.org/centos/7 or this http://mirror.centos.org/centos/7.4.1708, 
 but if it continue not to work because the package dependencies won't install, the ansible-tower installation will fail.
 ```
