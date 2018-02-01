@@ -39,7 +39,14 @@
      dest=/tmp/{{ archive_contents.files[0] }}inventory   
    
  - name: Save it to variable!
-   shell: lastcommand="/tmp/{{ archive_contents.files[0] }}setup.sh"  
+   shell: echo "/tmp/{{ archive_contents.files[0] }}setup.sh" > /tmp/lastcommand.sh  
+   
+ - name: Change owner group mode of lastcommand
+   file:
+     path: /tmp/lastcommand.sh
+     owner: root
+     group: root
+     mode: 0775   
 
  - name: If nothing execute after this!  Copy below on your shell and execute it!
    debug:
