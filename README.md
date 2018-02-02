@@ -19,7 +19,7 @@ Bug catcher
 
 This is working on this repo, http://mirror.centos.org/centos/7 or this http://mirror.centos.org/centos/7.4.1708, 
 but if it continue not to work because the package dependencies won't install, the ansible-tower installation will fail too.
-The link that this script/playbook is using might also change, so verify if it breaks and find a new link.
+The other link that this script/playbook is using might also change, so verify if it breaks and find a new link.
 ```
 
 # Created by Venerari and Lazaroall
