@@ -11,7 +11,6 @@ Do these after the vm had been provisioned and it should be executed to itself, 
 
 ```
 curl https://raw.githubusercontent.com/tso-ansible/ansible-tower/master/script.sh | /bin/bash
-
 ```
 
 ```
