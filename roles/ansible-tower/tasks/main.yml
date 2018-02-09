@@ -14,7 +14,6 @@
      - libffi-devel 
      - python 
      - python-devel
-     - wget
      - python-cryptography 
      - pyOpenSSL.x86_64
    when: ansible_os_family == "RedHat"
@@ -35,8 +34,18 @@
  - name: Building the inventory
    template:
      src=inventory.j2
-     dest=/tmp/{{ archive_contents.files[0] }}/inventory   
+     dest=/tmp/{{ archive_contents.files[0] }}inventory   
    
- - name: Execute this now!
+ - name: Save it to variable!
+   shell: echo "/tmp/{{ archive_contents.files[0] }}setup.sh" > /tmp/lastcommand.sh  
+   
+ - name: Change owner group mode of lastcommand
+   file:
+     path: /tmp/lastcommand.sh
+     owner: root
+     group: root
+     mode: 0775   
+
+ - name: If nothing execute after this!  Copy below on your shell and execute it!
    debug:
      msg: "/tmp/{{ archive_contents.files[0] }}setup.sh"  
